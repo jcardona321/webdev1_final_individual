@@ -72,6 +72,17 @@ export default function Slidebar() {
           <a href="#contact">Contact</a>
         </p>
       </div>
+      <div className="text-white flex justify-center py-4" data-aos="slide-up">
+        <a 
+          href="/privacy.html" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="underline hover:text-blue-600"
+        >
+          Privacy Policy
+        </a>
+      </div>
+      
       <div
         className="text-white flex flex-row gap-5 w-fit mx-auto pt-7"
         data-aos="slide-up"
@@ -81,6 +92,8 @@ export default function Slidebar() {
           onClick={() =>
             window.open("https://github.com", "_blank")
           }
+
+          
         >
           <GitHubIcon className="cursor-pointer hover:scale-105" />
         </div>

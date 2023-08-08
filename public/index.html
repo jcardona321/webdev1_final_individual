@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTX6Q0PX6F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FTX6Q0PX6F');
+</script>
+
     <title>Jose Cardona | Portfolio</title>
     <meta http-equiv="content-language" content="en" />
     <meta charset="UTF-8" />
@@ -36,6 +47,18 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <style>
+        .privacy-link {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+            display: inline-block;
+        }
+    </style>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -60,5 +83,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- ... Your other HTML content ... -->
+
+    <footer>
+      <a href="/privacy.html" target="_blank" rel="noopener noreferrer" class="privacy-link">Privacy Policy</a>
+  </footer>
+
   </body>
 </html>
