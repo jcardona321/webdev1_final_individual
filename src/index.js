@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Analytics } from "@vercel/analytics/react";
+import "aos/dist/aos.css";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
