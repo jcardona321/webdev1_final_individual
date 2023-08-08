@@ -1,16 +1,23 @@
-const { test, expect } = require('@playwright/test');
+const { chromium } = require('playwright');
 
-test.describe('Portfolio Website', () => {
-  let page;
+let browser;
+let page;
 
-  // Before each test, navigate to the website
-  test.beforeEach(async ({ browser }) => {
-    page = await browser.newPage();
+beforeAll(async () => {
+  browser = await chromium.launch();
+  page = await browser.newPage();
+});
+
+afterAll(async () => {
+  await browser.close();
+});
+
+describe('Portfolio Website', () => {
+  beforeEach(async () => {
     await page.goto('http://localhost:3000');
   });
 
-  // Validate the display of the Contact section
-  test('Contact section is displayed', async () => {
+  it('should display the Contact section', async () => {
     const contact = await page.$('#contact');
     expect(contact).toBeTruthy();
   });
