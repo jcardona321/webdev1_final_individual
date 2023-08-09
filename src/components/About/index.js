@@ -31,26 +31,23 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            Hello, my name is Jose Cardona. I'm currently a Project Engineer at Xcel Energy, where I leverage my Mechanical Engineering background to deliver innovative solutions and drive project success.
+            Hi, I'm Jose Cardona. At Xcel Energy, I use my Mechanical Engineering prowess to craft innovative solutions that propel projects forward. An alumnus of the New Jersey Institute of Technology (NJIT) with a degree in Mechanical Engineering, I've sharpened my analytical edge, focusing on intricate problems and detailed solutions.
 
-I graduated from the New Jersey Institute of Technology (NJIT) with a degree in Mechanical Engineering, a discipline that has honed my problem-solving skills and attention to detail. I’m now pursuing my Master’s degree in Computer Science from NJIT, embracing a new world of coding, algorithms, and data structures.
+Now, I'm venturing into the realms of Computer Science at NJIT. Transitioning from mechanics to the universe of coding, algorithms, and data structures has been enlightening. This dual expertise grants me a rare lens — I see problems and solutions both in their physical and digital dimensions.
 
-The cross-disciplinary nature of my background, blending Mechanical Engineering with Computer Science, gives me a unique perspective. I understand both the physical and the digital aspects of problems, allowing me to create solutions that are both practical and efficient.
+I'm passionate about DevOps. It's the perfect confluence of the analytical rigor of engineering and the ever-evolving realm of software development. The thrill of integrating the different facets of software development and automating processes keeps me driven.
 
-I am now looking forward to transitioning to the Computer Science field, with a particular interest in DevOps. This role marries the logical, problem-solving mindset of an engineer with the dynamic, fast-paced world of software development. I’m excited by the possibilities of automating software processes and integrating various parts of the software lifecycle, and I'm looking forward to bringing my unique perspective to this field.
-
-Feel free to explore my portfolio to see the projects I've been working on, or contact me if you have any questions or opportunities.
+Eager to see what I've been crafting? Dive into my portfolio. Should you wish to connect or discuss opportunities, Contact me below. Rest assured, your data is safe with me.
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-           I am currently on the lookout for new opportunities in software development,
-            keen to bring my diverse expertise in technologies such as ReactJs, NextJs,
-             TypeScript, and Java to the fore. Aside from my professional pursuits, 
-             I hold a deep passion for contributing to open-source projects, 
-             cherishing the collaboration and mutual learning these platforms provide. 
-             If you have information on job openings or would like to discuss potential open-source collaborations, please don't hesitate to get in touch.
+           With a deep understanding of DevOps practices and a keen interest in cybersecurity, 
+           I'm poised to contribute to cutting-edge projects in these domains. Beyond my core professional pursuits, 
+           I'm drawn to collaborative environments that prioritize security and efficiency. 
+           If you're in the loop about relevant job opportunities or are considering partnerships in DevOps or cybersecurity projects, 
+           I'd love to connect. Let's forge the future together.
           </p>
         </div>
 
