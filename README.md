@@ -41,6 +41,7 @@ I've also crafted a 5-minute presentation video. Here's a brief rundown:
 
 ## Key Links & References
 
-- **Live Portfolio:** [View My Portfolio](#) <!-- Replace # with your portfolio link -->
-- **Figma Design:** [See My Design Process](#) <!-- Replace # with your Figma link -->
-- **Google Analytics Screenshot:** ![GA
+- **Live Portfolio:** [View My Portfolio](https://webdev1-final-individual.vercel.app/) <!-- Replace # with your portfolio link -->
+- **Figma Design:** [See My Design Process](https://www.figma.com/file/tzY0lfTlkrs0wiaGAGuVeO/Jose-Cardona-Portfolio?type=design&node-id=0-1&mode=design&t=nXsjRPzD8IZhKDlN-0) <!-- Replace # with your Figma link -->
+- **Google Analytics Screenshot:** <img width="1280" alt="google analytics " src="https://github.com/jcardona321/webdev1_final_individual/assets/134986323/351a08d3-9f0d-40ad-a0e1-be93b879cef2">
+
