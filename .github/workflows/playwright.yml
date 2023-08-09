@@ -23,12 +23,16 @@ jobs:
         restore-keys: |
           ${{ runner.OS }}-node-
     - name: Install dependencies
-      run: yarn install # using yarn instead of npm
+      run: yarn install
     - name: Install Playwright dependencies
       run: sudo apt-get install -y libgtk-3-0 libnss3 libasound2 libgbm-dev
+    - name: Start server
+      run: yarn start &
+    - name: Wait for server to start
+      run: sleep 15
     - name: Run Jest tests with Playwright
-      run: yarn test # This will run the jest tests which internally use playwright for e2e testing
-    # (Optional) If you have any artifacts or reports you want to upload, you can use the following:
+      run: yarn test
+    # (Optional) If you have any artifacts or reports you want to upload:
     #- uses: actions/upload-artifact@v2
     #  if: always()
     #  with:
