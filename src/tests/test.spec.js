@@ -4,7 +4,8 @@ let browser;
 let page;
 
 beforeAll(async () => {
-  browser = await chromium;
+  browser = await chromium.launch();
+  page = await browser.newPage();
 });
 
 afterAll(async () => {
