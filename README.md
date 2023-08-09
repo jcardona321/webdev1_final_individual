@@ -37,7 +37,7 @@ I've also crafted a 5-minute presentation video. Here's a brief rundown:
 - A look at user engagement metrics from Google Analytics.
 - Reflections and looking ahead.
 
-[Watch the full video here.](#) <!-- Replace # with your video link -->
+## [Watch the full video here.](https://drive.google.com/file/d/10DD0WEr9o1oLse4GIs_r4gyOlVjxiV7s/view?usp=drive_link) <!-- Replace # with your video link -->
 
 ## Key Links & References
 
